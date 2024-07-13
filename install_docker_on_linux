@@ -8,6 +8,7 @@ sudo yum remove docker \
                   docker-engine
 
 sudo yum install -y docker
+sudo yum install docker-compose-plugin
 
 sudo systemctl start docker
 
